@@ -1,0 +1,33 @@
+A51 MACRO ASSEMBLER  ORTAKKATOT                                                           05/22/2021 11:08:53 PAGE     1
+
+
+MACRO ASSEMBLER A51 V7.10
+OBJECT MODULE PLACED IN OrtakKatot.OBJ
+ASSEMBLER INVOKED BY: C:\Keil\C51\BIN\A51.EXE OrtakKatot.asm SET(SMALL) DEBUG EP
+
+LOC  OBJ            LINE     SOURCE
+
+0000                   1     ORG 0000H
+0000 802E              2     SJMP ANA
+0030                   3     ORG 0030H
+0030                   4     ANA:
+0030 75A0B6            5     MOV P2,#0B6H
+0033 80FB              6     SJMP ANA
+                       7     
+                       8     END
+A51 MACRO ASSEMBLER  ORTAKKATOT                                                           05/22/2021 11:08:53 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+ANA. . . . . . . .  C ADDR   0030H   A   
+P2 . . . . . . . .  D ADDR   00A0H   A   
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 0 ERROR(S)

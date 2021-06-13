@@ -1,0 +1,80 @@
+echo 2 ; echo 7 
+echo 4
+echo 2 ; ls ; echo 66 ; echo 77 ; echo 7545 ; echo 524
+echo 1 ; echo 24
+echo 9
+echo 46 ; echo 222 ; echo 11 ; ls ; echo 465 ; echo 223 ; echo 524
+echo 14
+echo 69
+echo 2 ; ls  ; echo 66 ; echo 77 ; echo 7545 ; echo 524
+echo 12
+echo 11
+echo 2
+ls ; echo 88
+echo 88 ; ls 
+echo 2 ; ls ; echo 66 ; echo 77 ; echo 7545 ; echo 524
+echo 1 ; echo 24
+echo 
+echo 48 ; ; ls 
+echo 46 ; echo 222 ; echo 11 ; ; echo 465 ; echo 223 ; ls ; echo 524 
+echo 14
+echo 2 ; echo 7 
+echo 4
+echo 2 ; ls ; echo 66 ; echo 77 ; echo 7545 ; echo 524
+echo 1 ; echo 24
+echo 9
+echo 46 ; echo 222 ; echo 11 ; ls ; echo 465 ; echo 223 ; echo 524
+echo 14
+echo 69
+echo 2 ; ls  ; echo 66 ; echo 77 ; echo 7545 ; echo 524
+echo 12
+echo 11
+echo 2
+ls ; echo 88
+echo 88 ; ls 
+echo 2 ; ls ; echo 66 ; echo 77 ; echo 7545 ; echo 524
+echo 1 ; echo 24
+echo 
+echo 48 ; ; ls 
+echo 46 ; echo 222 ; echo 11 ; ; echo 465 ; echo 223 ; ls ; echo 524 
+echo 14
+echo 2 ; echo 7 
+echo 4
+echo 2 ; ls ; echo 66 ; echo 77 ; echo 7545 ; echo 524
+echo 1 ; echo 24
+echo 9
+echo 46 ; echo 222 ; echo 11 ; ls ; echo 465 ; echo 223 ; echo 524
+echo 14
+echo 69
+echo 2 ; ls  ; echo 66 ; echo 77 ; echo 7545 ; echo 524
+echo 12
+echo 11
+echo 2
+ls ; echo 88
+echo 88 ; ls 
+echo 2 ; ls ; echo 66 ; echo 77 ; echo 7545 ; echo 524
+echo 1 ; echo 24
+echo 
+echo 48 ; ; ls 
+echo 46 ; echo 222 ; echo 11 ; ; echo 465 ; echo 223 ; ls ; echo 524 
+echo 14
+echo 2 ; echo 7 
+echo 4
+echo 2 ; ls ; echo 66 ; echo 77 ; echo 7545 ; echo 524
+echo 1 ; echo 24
+echo 9
+echo 46 ; echo 222 ; echo 11 ; ls ; echo 465 ; echo 223 ; echo 524
+echo 14
+echo 69
+echo 2 ; ls  ; echo 66 ; echo 77 ; echo 7545 ; echo 524
+echo 12
+echo 11
+echo 2
+ls ; echo 88
+echo 88 ; ls 
+echo 2 ; ls ; echo 66 ; echo 77 ; echo 7545 ; echo 524
+echo 1 ; echo 24
+echo 
+echo 48 ; ; ls 
+echo 46 ; echo 222 ; echo 11 ; ; echo 465 ; echo 223 ; ls ; echo 524 
+echo 14

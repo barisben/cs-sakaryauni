@@ -1,0 +1,6 @@
+C:\Users\Baris\source\repos\Odev1\bin\Debug\Odev1.exe.config
+C:\Users\Baris\source\repos\Odev1\bin\Debug\Odev1.exe
+C:\Users\Baris\source\repos\Odev1\bin\Debug\Odev1.pdb
+C:\Users\Baris\source\repos\Odev1\obj\Debug\Odev1.csprojAssemblyReference.cache
+C:\Users\Baris\source\repos\Odev1\obj\Debug\Odev1.exe
+C:\Users\Baris\source\repos\Odev1\obj\Debug\Odev1.pdb

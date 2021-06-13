@@ -1,0 +1,65 @@
+A51 MACRO ASSEMBLER  KARASIMSEK                                                           05/22/2021 10:20:45 PAGE     1
+
+
+MACRO ASSEMBLER A51 V7.10
+OBJECT MODULE PLACED IN karasimsek.OBJ
+ASSEMBLER INVOKED BY: C:\Keil\C51\BIN\A51.EXE karasimsek.asm SET(SMALL) DEBUG EP
+
+LOC  OBJ            LINE     SOURCE
+
+0000                   1     ORG 0000H
+0000 802E              2     SJMP ANA
+0030                   3     ORG 0030H
+0030                   4     ANA:
+0030 759001            5     MOV P1,#01H
+0033 115A              6     ACALL GECIKME
+                       7     
+0035 759002            8     MOV P1,#02H
+0038 115A              9     ACALL GECIKME
+                      10     
+003A 759004           11     MOV P1,#04H
+003D 115A             12     ACALL GECIKME
+                      13     
+003F 759008           14     MOV P1,#08H
+0042 115A             15     ACALL GECIKME
+                      16     
+0044 759010           17     MOV P1,#10H
+0047 115A             18     ACALL GECIKME
+                      19     
+0049 759020           20     MOV P1,#20H
+004C 115A             21     ACALL GECIKME
+                      22     
+004E 759040           23     MOV P1,#40H
+0051 115A             24     ACALL GECIKME
+                      25     
+0053 759080           26     MOV P1,#80H
+0056 115A             27     ACALL GECIKME
+                      28     
+0058 80D6             29     SJMP ANA
+                      30     
+005A                  31     GECIKME:
+005A 7E00             32     mov r6,#00h
+005C                  33     tkrr:
+005C 7F00             34     mov r7,#00h
+005E DFFE             35     djnz r7,$
+0060 DEFA             36     djnz r6,tkrr
+0062 22               37     ret
+                      38     end
+A51 MACRO ASSEMBLER  KARASIMSEK                                                           05/22/2021 10:20:45 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+ANA. . . . . . . .  C ADDR   0030H   A   
+GECIKME. . . . . .  C ADDR   005AH   A   
+P1 . . . . . . . .  D ADDR   0090H   A   
+TKRR . . . . . . .  C ADDR   005CH   A   
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 0 ERROR(S)

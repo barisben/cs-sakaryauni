@@ -1,0 +1,27 @@
+NodeMCU V3 LoLin ESP8266 Geliştirme Kartı - USB Chip CH340
+https://www.robotistan.com/nodemcu-lolin-esp8266-gelistirme-karti-usb-chip-ch340
+
+13.56 MHz Nfc Kart - ISO14443A, 1K
+https://www.robotistan.com/1356mhz-nfc-kart-iso14443a-1k
+
+Orjinal LM35DZ
+https://www.robotistan.com/lm35
+
+1/4 W 220 R Direnç Paketi - 10 Adet
+https://www.robotistan.com/14w-220r-direnc-paketi-10-adet
+
+5 mm Mavi Led Paketi - 10 Adet
+https://www.robotistan.com/5mm-sari-led-paketi-10-adet-6355
+
+Mikro USB Kablo - 1.5 m
+https://www.robotistan.com/mikro-usb-kablo-1
+
+40 Pin Ayrılabilen Erkek-Erkek M-M Jumper Kablo-200 mm
+https://www.robotistan.com/40-pin-ayrilabilen-erkek-erkek-m-m-jumper-kablo-200-mm
+
+40 Pin Ayrılabilen Dişi-Erkek M-F Jumper Kablo-200 mm
+https://www.robotistan.com/40-pin-ayrilabilen-disi-erkek-m-f-jumper-kablo-200-mm
+
+Breadboard
+https://www.robotistan.com/breadboard-2
+

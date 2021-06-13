@@ -1,0 +1,21 @@
+<html>
+<body>
+<pre>
+<h1>µVision3 Build Log</h1>
+<h2>Project:</h2>
+C:\Users\dilek\Desktop\ButonEkran\ButonEkran.uv2
+Project File Date:  05/22/2021
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling ButonEkran.asm...
+linking...
+Program Size: data=8.0 xdata=0 code=68
+creating hex file from "ButonEkran"...
+"ButonEkran" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+assembling ButonEkran.asm...
+linking...
+Program Size: data=8.0 xdata=0 code=68
+creating hex file from "ButonEkran"...
+"ButonEkran" - 0 Error(s), 0 Warning(s).

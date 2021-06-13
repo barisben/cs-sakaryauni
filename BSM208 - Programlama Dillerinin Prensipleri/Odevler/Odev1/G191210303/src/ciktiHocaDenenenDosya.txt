@@ -1,0 +1,42 @@
+Sınıf: Insan
+	Insan
+		Parametre: 3 (string, string, int)
+		Dönüş Türü: Nesne Adresi
+	TCKimlikNo
+		Parametre: 0
+		Dönüş Türü: string
+	toString
+		Parametre: 0
+		Dönüş Türü: string
+Sınıf: Calisan 
+	Calisan
+		Parametre: 6 (string, string, int, double, int, bool)
+		Dönüş Türü: Nesne Adresi
+	IkramiyeHesapla
+		Parametre: 0
+		Dönüş Türü: double
+	KatSayiHesapla
+		Parametre: 2 (double*, int)
+		Dönüş Türü: double
+	mutlumu
+		Parametre: 0
+		Dönüş Türü: bool
+	toString
+		Parametre: 0
+		Dönüş Türü: string
+Sınıf: Doktor 
+	Doktor
+		Parametre: 7 (string, string, int, double, int, bool, double)
+		Dönüş Türü: Nesne Adresi
+	KatSayiHesapla
+		Parametre: 2 (double*, int)
+		Dönüş Türü: double
+	operator==
+		Parametre: 1 (Doktor&)
+		Dönüş Türü: bool
+	toString
+		Parametre: 0
+		Dönüş Türü: string
+Super Sınıflar:
+	Insan:1
+	Calisan:1

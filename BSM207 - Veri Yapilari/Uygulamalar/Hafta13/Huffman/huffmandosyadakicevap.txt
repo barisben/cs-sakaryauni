@@ -1,0 +1,1 @@
+eğer satır sonu yapılmışsa \n için de kod çıkarır, bu örnek için 11000

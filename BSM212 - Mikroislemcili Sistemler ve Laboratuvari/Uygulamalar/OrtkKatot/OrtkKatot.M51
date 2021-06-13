@@ -1,0 +1,46 @@
+BL51 BANKED LINKER/LOCATER V5.11                                                        05/22/2021  11:15:51  PAGE 1
+
+
+BL51 BANKED LINKER/LOCATER V5.11, INVOKED BY:
+C:\KEIL\C51\BIN\BL51.EXE OrtkKatot.obj TO OrtkKatot RAMSIZE (256)
+
+
+INPUT MODULES INCLUDED:
+  OrtkKatot.obj (ORTKKATOT)
+
+
+LINK MAP OF MODULE:  OrtkKatot (ORTKKATOT)
+
+
+            TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
+            -----------------------------------------------------
+
+            * * * * * * *   D A T A   M E M O R Y   * * * * * * *
+            REG     0000H     0008H     ABSOLUTE     "REG BANK 0"
+
+            * * * * * * *   C O D E   M E M O R Y   * * * * * * *
+            CODE    0000H     0038H     ABSOLUTE     
+
+
+
+SYMBOL TABLE OF MODULE:  OrtkKatot (ORTKKATOT)
+
+  VALUE           TYPE          NAME
+  ----------------------------------
+
+  -------         MODULE        ORTKKATOT
+  C:0030H         SYMBOL        ANA
+  D:00A0H         SYMBOL        P2
+  D:00B0H         SYMBOL        P3
+  C:0000H         LINE#         2
+  C:0030H         LINE#         5
+  C:0033H         LINE#         6
+  C:0036H         LINE#         7
+  -------         ENDMOD        ORTKKATOT
+
+******************************************************************************
+* RESTRICTED VERSION WITH 0800H BYTE CODE SIZE LIMIT; USED: 000CH BYTE ( 0%) *
+******************************************************************************
+
+Program Size: data=8.0 xdata=0 code=56
+LINK/LOCATE RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)
