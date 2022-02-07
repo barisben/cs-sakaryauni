@@ -1,0 +1,463 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Microsoft.VisualStudio.Web.CodeGeneration.Contracts</name>
+    </assembly>
+    <members>
+        <member name="T:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.FileSystemChange.FileSystemChangeInformation">
+            <summary>
+            Represents information about a file system change.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.FileSystemChange.FileSystemChangeInformation.FullPath">
+            <summary>
+            Full path of the changed file/ directory.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.FileSystemChange.FileSystemChangeInformation.FileSystemChangeType">
+            <summary>
+            See <see cref="T:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.FileSystemChange.FileSystemChangeType"/> for possible values.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.FileSystemChange.FileSystemChangeInformation.FileContents">
+            <summary>
+            Contents of the file if <see cref="P:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.FileSystemChange.FileSystemChangeInformation.FileSystemChangeType"/>
+            is <see cref="F:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.FileSystemChange.FileSystemChangeType.AddFile"/>
+            or <see cref="F:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.FileSystemChange.FileSystemChangeType.EditFile"/>
+            </summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.FileSystemChange.FileSystemChangeType">
+            <summary>
+            Indicates the type of file system change
+            </summary>
+        </member>
+        <member name="F:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.FileSystemChange.FileSystemChangeType.AddFile">
+            <summary>
+            A new file is added.
+            </summary>
+        </member>
+        <member name="F:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.FileSystemChange.FileSystemChangeType.EditFile">
+            <summary>
+            A file existing on disk was edited.
+            </summary>
+        </member>
+        <member name="F:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.FileSystemChange.FileSystemChangeType.DeleteFile">
+            <summary>
+            A file existing on disk is deleted.
+            </summary>
+        </member>
+        <member name="F:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.FileSystemChange.FileSystemChangeType.AddDirectory">
+            <summary>
+            A new directory is added.
+            </summary>
+        </member>
+        <member name="F:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.FileSystemChange.FileSystemChangeType.RemoveDirectory">
+            <summary>
+            A directory existing on disk is removed.
+            </summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.Messaging.Message">
+            <summary>
+            Contains information passed between Scaffolding server and client.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.Messaging.Message.HostId">
+            <summary>
+            An identifier for the sender of the message.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.Messaging.Message.MessageType">
+            <summary>
+            See <see cref="T:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.Messaging.MessageTypes"/> for valid message types.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.Messaging.Message.Payload">
+            <summary>
+            Payload in json format.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.Messaging.Message.ProtocolVersion">
+            <summary>
+            The protocol version to use for communication.
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.Messaging.Message.ToString">
+            <inheritdoc/>
+        </member>
+        <member name="T:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.Messaging.MessageTypes">
+            <summary>
+            Represents valid message types for communication.
+            </summary>
+        </member>
+        <member name="F:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.Messaging.MessageTypes.Scaffolding_Completed">
+            <summary>
+            Scaffolding is completed. No more messages can be sent after this.
+            </summary>
+        </member>
+        <member name="F:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.Messaging.MessageTypes.Terminate">
+            <summary>
+            Scaffolding did not complete but had to terminate.
+            </summary>
+        </member>
+        <member name="F:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.Messaging.MessageTypes.ProjectInfoRequest">
+            <summary>
+            Request message for getting project information.
+            <see cref="T:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel.IProjectContext"/>
+            </summary>
+        </member>
+        <member name="F:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.Messaging.MessageTypes.ProjectInfoResponse">
+            <summary>
+            Response message containing project information.
+            <see cref="T:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel.IProjectContext"/>
+            </summary>
+        </member>
+        <member name="F:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.Messaging.MessageTypes.FileSystemChangeInformation">
+            <summary>
+            File System Change message containing information about a
+            single file system change. <see cref="T:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.FileSystemChange.FileSystemChangeInformation"/>
+            </summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel.CommonProjectContext">
+            <inheritdoc/>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel.CommonProjectContext.AssemblyFullPath">
+            <inheritdoc/>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel.CommonProjectContext.AssemblyName">
+            <inheritdoc/>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel.CommonProjectContext.CompilationAssemblies">
+            <inheritdoc/>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel.CommonProjectContext.CompilationItems">
+            <inheritdoc/>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel.CommonProjectContext.Config">
+            <inheritdoc/>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel.CommonProjectContext.Configuration">
+            <inheritdoc/>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel.CommonProjectContext.DepsFile">
+            <inheritdoc/>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel.CommonProjectContext.EmbededItems">
+            <inheritdoc/>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel.CommonProjectContext.IsClassLibrary">
+            <inheritdoc/>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel.CommonProjectContext.PackageDependencies">
+            <inheritdoc/>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel.CommonProjectContext.PackagesDirectory">
+            <inheritdoc/>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel.CommonProjectContext.Platform">
+            <inheritdoc/>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel.CommonProjectContext.ProjectFullPath">
+            <inheritdoc/>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel.CommonProjectContext.ProjectName">
+            <inheritdoc/>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel.CommonProjectContext.ProjectReferenceInformation">
+            <inheritdoc/>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel.CommonProjectContext.ProjectReferences">
+            <inheritdoc/>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel.CommonProjectContext.RootNamespace">
+            <inheritdoc/>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel.CommonProjectContext.RuntimeConfig">
+            <inheritdoc/>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel.CommonProjectContext.TargetDirectory">
+            <inheritdoc/>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel.CommonProjectContext.TargetFramework">
+            <inheritdoc/>
+        </member>
+        <member name="T:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel.Dependency">
+            <summary>
+            Represents a dependency.
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel.Dependency.#ctor(System.String,System.String)">
+            <summary/>
+            <param name="name">Name of the dependency.</param>
+            <param name="version">Version of the dependency.</param>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel.Dependency.Name">
+            <summary>
+            Name of the dependency.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel.Dependency.Version">
+            <summary>
+            Version of the dependency.
+            </summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel.DependencyDescription">
+            <summary>
+            Represents a NuGet package dependency of the project.
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel.DependencyDescription.#ctor(System.String,System.String,System.String,System.String,Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel.DependencyType,System.Boolean)">
+            <summary/>
+            <param name="name">Name of the dependency.</param>
+            <param name="version">Version of the dependency.</param>
+            <param name="path">Full path to the dependency.</param>
+            <param name="targetFramework">TFM of the project to which this dependency belongs.</param>
+            <param name="type">Type of the dependency. <see cref="T:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel.DependencyType"/></param>
+            <param name="resolved">Indicates whether this dependency is resolved on disk or not.</param>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel.DependencyDescription.TargetFramework">
+            <summary>
+            TFM of the project to which this dependency belongs.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel.DependencyDescription.Name">
+            <summary>
+            Name of the dependency.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel.DependencyDescription.Path">
+            <summary>
+            Full path to the dependency.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel.DependencyDescription.Version">
+            <summary>
+            Version of the dependency.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel.DependencyDescription.Type">
+            <summary>
+            Type of the dependency. <see cref="T:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel.DependencyType"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel.DependencyDescription.Resolved">
+            <summary>
+            Specifies whether this dependency has been resolved.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel.DependencyDescription.Dependencies">
+            <summary>
+            Dependencies of the this dependency.
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel.DependencyDescription.AddDependency(Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel.Dependency)">
+            <summary>
+            Adds a dependency to current dependencies.
+            </summary>
+            <param name="dependency"></param>
+        </member>
+        <member name="T:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel.DependencyType">
+            <summary>
+            Types of dependencies.
+            </summary>
+        </member>
+        <member name="F:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel.DependencyType.Target">
+            <summary>
+            Represents the Target secion in the project.assets.json.
+            (The dependencies of this type of dependency are the direct dependencies
+            of the project.)
+            </summary>
+        </member>
+        <member name="F:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel.DependencyType.Package">
+            <summary>
+            NuGet package dependency.
+            </summary>
+        </member>
+        <member name="F:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel.DependencyType.Assembly">
+            <summary>
+            Assembly reference.
+            </summary>
+        </member>
+        <member name="F:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel.DependencyType.Project">
+            <summary>
+            Project Reference.
+            </summary>
+        </member>
+        <member name="F:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel.DependencyType.AnalyzerAssembly">
+            <summary>
+            Analyzer Assembly reference.
+            </summary>
+        </member>
+        <member name="F:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel.DependencyType.Unknown">
+            <summary>
+            Unknown reference type.
+            </summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel.IProjectContext">
+            <summary>
+            Represents the project information on which scaffolding is being done.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel.IProjectContext.ProjectName">
+            <summary>
+            Name of the project.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel.IProjectContext.Configuration">
+            <summary>
+            Project Configuration.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel.IProjectContext.Platform">
+            <summary>
+            Platform targeted by the project.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel.IProjectContext.ProjectFullPath">
+            <summary>
+            Full path to the csproj file of the project.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel.IProjectContext.RootNamespace">
+            <summary>
+            Default namespace for the project.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel.IProjectContext.IsClassLibrary">
+            <summary>
+            Specifies whether the output of the project is a
+            class library.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel.IProjectContext.TargetFramework">
+            <summary>
+            TargetFramework for the project.
+            If the project has multiple frameworks, all of the
+            information in the ProjectContext is specific to this
+            TargetFramework.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel.IProjectContext.TargetFrameworkMoniker">
+            <summary>
+            TargetFrameworkMoniker for the project.
+            If the project has multiple frameworks, all of the
+            information in the ProjectContext is specific to this
+            TargetFramework.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel.IProjectContext.Config">
+            <summary>
+            Full path to config file for the assembly.
+            Usually <see cref="P:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel.IProjectContext.AssemblyFullPath"/> + ".config"
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel.IProjectContext.PackagesDirectory">
+            <summary>
+            NuGet package root for the project.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel.IProjectContext.TargetDirectory">
+            <summary>
+            Full path of the Output directory.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel.IProjectContext.AssemblyName">
+            <summary>
+            File name of the project output.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel.IProjectContext.AssemblyFullPath">
+            <summary>
+            The full path of the project output.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel.IProjectContext.DepsFile">
+            <summary>
+            Full path to deps.json file of the built project.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel.IProjectContext.RuntimeConfig">
+            <summary>
+            Full path to runtimeconfig.json file for the project.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel.IProjectContext.CompilationItems">
+            <summary>
+            Items included for compilation in the project.
+            &lt;Compile Include="" /&gt;
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel.IProjectContext.EmbededItems">
+            <summary>
+            Items inlcuded as embedded resources.
+            &lt;EmbeddedResource Include="" /&gt;
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel.IProjectContext.PackageDependencies">
+            <summary>
+            NuGet dependencies of the project.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel.IProjectContext.CompilationAssemblies">
+            <summary>
+            Assemblies required for compilation of the project.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel.IProjectContext.ProjectReferences">
+            <summary>
+            Paths to project references (direct and indirect) of the project.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel.IProjectContext.ProjectReferenceInformation">
+            <summary>
+            Collection of information regarding the project references.
+            </summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel.ProjectReferenceInformation">
+            <summary>
+            Information of the project reference including full path, assembly name, etc.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel.ProjectReferenceInformation.FullPath">
+            <summary>
+            Full path to the csproj file of the project.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel.ProjectReferenceInformation.ProjectName">
+            <summary>
+            Name of the project reference.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel.ProjectReferenceInformation.AssemblyName">
+            <summary>
+            Assembly name for the project reference.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel.ProjectReferenceInformation.CompilationItems">
+            <summary>
+            Items included in the project reference for compilation
+            &lt;Compile Include="" /&gt;
+            </summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel.ResolvedReference">
+            <summary>
+            Information about a resolved reference of the project.
+            The reference could be from a NuGet package, assembly ref etc.
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel.ResolvedReference.#ctor(System.String,System.String)">
+            <summary/>
+            <param name="name">Name of the referenced assembly.</param>
+            <param name="resolvedPath">Full path of the referenced assembly.</param>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel.ResolvedReference.ResolvedPath">
+            <summary>
+            Full path of the referenced assembly.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel.ResolvedReference.Name">
+            <summary>
+            Name of the referenced assembly.
+            </summary>
+        </member>
+    </members>
+</doc>

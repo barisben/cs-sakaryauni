@@ -1,0 +1,30 @@
+﻿@model Ogrenci
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<table class="table">
+    <tr>
+        <th>Ad</th>
+        <th>No</th>
+    </tr>
+    <tr>
+        <td>@Model.OgrAd</td>
+        <td>@Model.OgrNo</td>
+    </tr>
+</table>
+
+<br />
+
+<h2>Bu bir ViewBag -> @ViewBag.msg</h2>
+<h2>Bu bir ViewData -> @ViewData["msg2"]</h2>
+<h2>Bu bir TempData -> @TempData["msg3"]</h2>
+
+@{
+    string st= ViewBag.msg;
+    string st2 = Convert.ToString(ViewData["msg2"]);
+    string st3 = Convert.ToString(TempData["msg3"]);
+}
+@st2

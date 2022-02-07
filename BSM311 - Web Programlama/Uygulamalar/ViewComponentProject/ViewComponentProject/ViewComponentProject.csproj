@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Controller\" />
+    <None Remove="Views\Shared\Components\" />
+    <None Remove="Views\Shared\Components\SehirListele\" />
+    <None Remove="Views\Shared\Components\SehirListeleAuto\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Component\" />
+    <Folder Include="Views\Shared\Components\" />
+    <Folder Include="Views\Shared\Components\SehirListele\" />
+    <Folder Include="Views\Shared\Components\SehirListeleAuto\" />
+  </ItemGroup>
+</Project>

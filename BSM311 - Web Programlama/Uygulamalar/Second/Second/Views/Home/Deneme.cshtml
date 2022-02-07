@@ -1,0 +1,88 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<h1>@DateTime.Now.ToShortDateString()</h1>
+@{
+    var tarih = DateTime.Now.ToShortDateString();
+    var msg = "Merhaba";
+}
+
+<h2>@tarih</h2>
+<h2>@msg</h2>
+
+@{
+    var txt = "Merhaba";
+    @: Web Programlama Dersi <b>@txt</b>
+}
+
+<table class="table-striped" width="100%">
+    <tr>
+        <th>Ad</th>
+        <th>Değer</th>
+    </tr>
+    <tr>
+        <td>Saat</td>
+        <td>@DateTime.Now.Hour</td>
+    </tr>
+    <tr>
+        <td>Dakika</td>
+        <td>@DateTime.Now.Minute</td>
+    </tr>
+    <tr>
+        <td>Saniye</td>
+        <td>@DateTime.Now.Second</td>
+    </tr>
+</table>
+
+@for (int i = 1; i < 6; i++)
+{
+    @i <br />
+}
+
+@{
+    string[] Ogrenciler = { "Semra", "Hasan", "Tuncay", "Mehmet" };
+    string ad = "Hasan";
+    int kacinci = Array.IndexOf(Ogrenciler, ad)+1;
+    int l = Ogrenciler.Length;
+}
+<p>@Ogrenciler[0]</p>
+@foreach (var ogr in Ogrenciler)
+{
+    <p>@ogr</p>
+}
+
+@{
+    int day = Convert.ToInt32(DateTime.Now.DayOfWeek);
+    switch (day)
+    {
+        case 0:
+            txt = "Pazar";
+            break;
+        case 1:
+            txt = "Pazartesi";
+            break;
+        case 2:
+            txt = "Salı";
+            break;
+        case 3:
+            txt = "Çarşamba";
+            break;
+        case 4:
+            txt = "Perşembe";
+            break;
+        case 5:
+            txt = "Cuma";
+            break;
+        case 6:
+            txt = "Cumartesi";
+            break;
+        default:
+            txt = "Tatil";
+            break;
+    }
+    <br />
+    <h2>Bugun <b>@txt</b></h2>;
+}

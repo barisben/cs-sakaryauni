@@ -1,0 +1,12 @@
+﻿@model IEnumerable<EntityFramework.Models.Author>
+
+@{ ViewData["Title"] = "Web Component"; }
+
+<h1>Web Component Yazarlar</h1>
+
+<ol>
+    @foreach (var item in Model)
+    {
+        <li>@item.AuthorFName @item.AuthorLName</li>
+    }
+</ol>

@@ -1,0 +1,23 @@
+﻿@model List<Book>
+
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<table class="table table-info" width="800">
+    <tr>
+        <th><label asp-for="@Model[0].BookTitle"></label></th>
+        <th><label asp-for="@Model[0].Auth.AuthorFName"></label></th>
+        <th><label asp-for="@Model[0].Auth.AuthorLName"></label></th>
+    </tr>
+@foreach (var book in Model)
+{
+    <tr>
+        <td>@book.BookTitle</td>
+        <td>@book.Auth.AuthorFName</td>
+        <td>@book.Auth.AuthorLName</td>
+    </tr>
+}
+</table>

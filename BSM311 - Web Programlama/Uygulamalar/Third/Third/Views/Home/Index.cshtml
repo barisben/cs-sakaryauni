@@ -1,0 +1,24 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+@tagHelperPrefix th:
+
+<br />
+<a href="/Home/Privacy/10">Normal HTML Linki</a>
+<br />
+@Html.ActionLink("HTML Helper", "Privacy", "Home", new { id=10 })
+<br />
+<a href="@Url.Action("Privacy", "Home", new { id = 10 })">URL Action ile Link</a>
+<br />
+@*<a asp-controller="Home" asp-action="Privacy">Tag Helper ile Link</a>*@
+<th:a asp-controller="Home" asp-action="Privacy" asp-route-id="10">Tag Helper ile Link</th:a>
+<br />
+<br />
+@*<img src="/images/bir.png" />*@
+<th:img src="/images/bir.png" asp-append-version="true" />

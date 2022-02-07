@@ -1,0 +1,42 @@
+﻿@model Ogrenci
+
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+
+<form asp-action="OgrEkle" asp-controller="Ogrenci" method="post">
+    <div class="form-group">
+        <label asp-for="OgrAd"></label>
+        <input asp-for="OgrAd" class="form-control" />
+        <span asp-validation-for="OgrAd"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="OgrSoyad"></label>
+        <input asp-for="OgrSoyad" class="form-control" />
+        <span asp-validation-for="OgrSoyad"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="OgrTel"></label>
+        <input asp-for="OgrTel" class="form-control" />
+        <span asp-validation-for="OgrTel"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="OgrMail"></label>
+        <input asp-for="OgrMail" class="form-control" />
+        <span asp-validation-for="OgrMail"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="OgrBolum"></label>
+        <select asp-for="OgrBolum" class="form-control" asp-items="Html.GetEnumSelectList<Bolum>()">
+            <option selected="selected" value="">Bir bolüm seciniz.</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <input type="submit" class="btn btn-info" value="Gonder" />
+    </div>
+</form>
