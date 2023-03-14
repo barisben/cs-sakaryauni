@@ -1,0 +1,37 @@
+A51 MACRO ASSEMBLER  DENEME                                                               05/22/2021 10:50:01 PAGE     1
+
+
+MACRO ASSEMBLER A51 V7.10
+OBJECT MODULE PLACED IN deneme.OBJ
+ASSEMBLER INVOKED BY: C:\Keil\C51\BIN\A51.EXE deneme.asm SET(SMALL) DEBUG EP
+
+LOC  OBJ            LINE     SOURCE
+
+0000                   1     ORG 0000H
+0000 802E              2     SJMP ANA
+0030                   3     ORG 0030H
+                       4     
+0030                   5     ANA:
+                       6     
+0030 75A01F            7     MOV P2,#1FH
+0033 75B080            8     MOV P3,#80H
+0036 80F8              9     SJMP ANA
+                      10     
+                      11     END
+A51 MACRO ASSEMBLER  DENEME                                                               05/22/2021 10:50:01 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+ANA. . . . . . . .  C ADDR   0030H   A   
+P2 . . . . . . . .  D ADDR   00A0H   A   
+P3 . . . . . . . .  D ADDR   00B0H   A   
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 0 ERROR(S)

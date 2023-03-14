@@ -1,0 +1,10 @@
+C:\Users\Baris\source\repos\Proje\bin\Debug\Proje.exe.config
+C:\Users\Baris\source\repos\Proje\bin\Debug\Proje.exe
+C:\Users\Baris\source\repos\Proje\bin\Debug\Proje.pdb
+C:\Users\Baris\source\repos\Proje\obj\Debug\Proje.csprojAssemblyReference.cache
+C:\Users\Baris\source\repos\Proje\obj\Debug\Proje.Form1.resources
+C:\Users\Baris\source\repos\Proje\obj\Debug\Proje.Properties.Resources.resources
+C:\Users\Baris\source\repos\Proje\obj\Debug\Proje.csproj.GenerateResource.cache
+C:\Users\Baris\source\repos\Proje\obj\Debug\Proje.csproj.CoreCompileInputs.cache
+C:\Users\Baris\source\repos\Proje\obj\Debug\Proje.exe
+C:\Users\Baris\source\repos\Proje\obj\Debug\Proje.pdb

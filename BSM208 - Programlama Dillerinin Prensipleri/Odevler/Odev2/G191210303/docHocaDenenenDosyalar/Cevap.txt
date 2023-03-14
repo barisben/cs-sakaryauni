@@ -1,0 +1,82 @@
+Satislar Kar/Zarar:
+ALGYO : 1896.44 TL Kar
+DOAS : 2260.05 TL Zarar
+HEKTS : 200.00 TL Zarar
+ISMEN : 55.00 TL Kar
+KOZAA : 440.00 TL Kar
+TTRAK : 800.00 TL Zarar
+VAKBN : 700.00 TL Zarar
+VERUS : 490.00 TL Kar
+EGEEN : 49950.00 TL Kar
+MAVI : 570.00 TL Zarar
+Toplam Kar/Zarar: +48301.39 TL
+
+Guncel Portfoy:
+Hisse: BERA
+Adet: 367
+Maliyet: 21.09 TL
+-----------------------------
+Hisse: ESEN
+Adet: 1350
+Maliyet: 27.61 TL
+-----------------------------
+Hisse: ISMEN
+Adet: 200
+Maliyet: 14.00 TL
+-----------------------------
+Hisse: KOZAA
+Adet: 100
+Maliyet: 12.40 TL
+-----------------------------
+Hisse: OYAKC
+Adet: 1000
+Maliyet: 7.76 TL
+-----------------------------
+Hisse: TOASO
+Adet: 490
+Maliyet: 27.00 TL
+-----------------------------
+Hisse: TTRAK
+Adet: 250
+Maliyet: 207.00 TL
+-----------------------------
+Hisse: TUPRS
+Adet: 680
+Maliyet: 86.20 TL
+-----------------------------
+Hisse: ALKIM
+Adet: 470
+Maliyet: 16.20 TL
+-----------------------------
+Hisse: EGEEN
+Adet: 200
+Maliyet: 1150.00 TL
+-----------------------------
+Hisse: GUBRF
+Adet: 500
+Maliyet: 63.00 TL
+-----------------------------
+Hisse: JANTS
+Adet: 2100
+Maliyet: 717.00 TL
+-----------------------------
+Hisse: SISE
+Adet: 1000
+Maliyet: 8.01 TL
+-----------------------------
+Hisse: TKNSA
+Adet: 600
+Maliyet: 10.50 TL
+-----------------------------
+Hisse: SOKM
+Adet: 400
+Maliyet: 12.29 TL
+-----------------------------
+Hisse: TSKB
+Adet: 300
+Maliyet: 1.21 TL
+-----------------------------
+Hisse: YATAS
+Adet: 500
+Maliyet: 15.90 TL
+-----------------------------

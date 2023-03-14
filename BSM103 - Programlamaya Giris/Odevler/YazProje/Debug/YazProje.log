@@ -1,0 +1,8 @@
+﻿  YazProje.cpp
+C:\Users\Baris\source\repos\YazProje\YazProje.cpp(509,23): warning C4018: '<': imzalı/imzasız uyuşmazlığı
+C:\Users\Baris\source\repos\YazProje\YazProje.cpp(608,26): warning C4018: '<': imzalı/imzasız uyuşmazlığı
+C:\Users\Baris\source\repos\YazProje\YazProje.cpp(761,24): warning C4018: '<': imzalı/imzasız uyuşmazlığı
+C:\Users\Baris\source\repos\YazProje\YazProje.cpp(809,23): warning C4018: '<': imzalı/imzasız uyuşmazlığı
+C:\Users\Baris\source\repos\YazProje\YazProje.cpp(894,29): warning C4018: '<': imzalı/imzasız uyuşmazlığı
+C:\Users\Baris\source\repos\YazProje\YazProje.cpp(906,29): warning C4018: '<': imzalı/imzasız uyuşmazlığı
+  YazProje.vcxproj -> C:\Users\Baris\source\repos\YazProje\Debug\YazProje.exe

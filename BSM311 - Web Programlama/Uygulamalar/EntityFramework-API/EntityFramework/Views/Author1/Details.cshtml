@@ -1,0 +1,45 @@
+@model EntityFramework.Models.Author
+
+@{ ViewData["Title"] = "Details"; }
+
+<h1>Details</h1>
+
+<div>
+    <h4>Author</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.AuthorFName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.AuthorFName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.AuthorLName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.AuthorLName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.AuthorAddress)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.AuthorAddress)
+        </dd>
+    </dl>
+</div>
+
+<br />
+<br />
+
+<div>
+    @await Component.InvokeAsync("BookList", Model.AuthorId)
+</div>
+
+<br />
+<br />
+
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.AuthorId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

@@ -1,0 +1,47 @@
+A51 MACRO ASSEMBLER  BUTONEKRAN                                                           05/22/2021 11:36:44 PAGE     1
+
+
+MACRO ASSEMBLER A51 V7.10
+OBJECT MODULE PLACED IN ButonEkran.OBJ
+ASSEMBLER INVOKED BY: C:\Keil\C51\BIN\A51.EXE ButonEkran.asm SET(SMALL) DEBUG EP
+
+LOC  OBJ            LINE     SOURCE
+
+0000                   1     ORG 0000H
+0000 802E              2     SJMP BASLA
+0030                   3     ORG 0030H
+0030                   4     BASLA:
+                       5     
+0030 209008            6     JB P1.0, BASILIDEGIL
+                       7     
+0033 D2B7              8     SETB P3.7
+0035 75A0B6            9     MOV P2,#0B6H
+0038 75B001           10     MOV P3,#01H
+                      11     
+003B                  12     BASILIDEGIL:
+003B 75A000           13     MOV P2, #00H
+003E 75B001           14     MOV P3, #01H
+                      15     
+0041 80ED             16     SJMP BASLA
+                      17     
+0043 22               18     RET
+                      19     END
+A51 MACRO ASSEMBLER  BUTONEKRAN                                                           05/22/2021 11:36:44 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+BASILIDEGIL. . . .  C ADDR   003BH   A   
+BASLA. . . . . . .  C ADDR   0030H   A   
+P1 . . . . . . . .  D ADDR   0090H   A   
+P2 . . . . . . . .  D ADDR   00A0H   A   
+P3 . . . . . . . .  D ADDR   00B0H   A   
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 0 ERROR(S)

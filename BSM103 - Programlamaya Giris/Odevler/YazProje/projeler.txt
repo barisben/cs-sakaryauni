@@ -1,0 +1,10 @@
+2001,Yazilim,Apple,Nermin Ciftci,Gulcin Celik
+2002,Egitim,HP,Didem Ozcimen,Meyrem Vehapi
+2003,Kimya,Trendyol,Sevil Yucel,Elif Mete
+2005,Insaat,Lenovo,Nurcan Tugrul,Ozge Yilmaz
+2006,Mimari,Huawei,Murat Sari,Tulay Yildirim
+2007,Matematik,Rubenis,Dolunay Sakar,Azize Dizdar
+2008,Termik Santral,Boyner,Guray Arslan,Mehdi Ozturk
+2009,Akilli Ses,Asus,Emek Derun,Gizem Balkan
+2010,Bacakopter,Sony,Haci Ilhan,Hayri Aslan
+2004,Metalurji,Hepsiburada,Cem Akca,Bugra Guner

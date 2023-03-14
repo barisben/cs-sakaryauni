@@ -1,0 +1,12 @@
+﻿@using Microsoft.AspNetCore.Http
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+
+@{
+    ViewData["Title"] = "Kayit Page";
+}
+
+<h1>Session</h1>
+<h2>@HttpContextAccessor.HttpContext.Session.GetString("DogumYili")</h2>
+<h2>@HttpContextAccessor.HttpContext.Session.GetInt32("Yas")</h2>
+<h1>Cookies</h1>
+<h2>@HttpContextAccessor.HttpContext.Request.Cookies["WebId"].ToString()</h2>

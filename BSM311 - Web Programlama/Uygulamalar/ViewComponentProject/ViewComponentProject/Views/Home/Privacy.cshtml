@@ -1,0 +1,9 @@
+﻿@{
+    ViewData["Title"] = "Privacy Policy";
+    string sehirler = "Mersin; Manisa;Trabzon";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>Use this page to detail your site's privacy policy.</p>
+
+@await Component.InvokeAsync("SehirListeleAuto", sehirler)

@@ -1,0 +1,23 @@
+﻿@using Microsoft.AspNetCore.Http
+@using SessionCookie.Models
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+
+@{
+    ViewData["Title"] = "Home Page";
+
+    var ogr=HttpContextAccessor.HttpContext.Session.GetObject<Ogrenci>("Ogrenci");
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+<h1>Session</h1>
+<h2>@HttpContextAccessor.HttpContext.Session.GetString("DogumYili")</h2>
+<h2>@HttpContextAccessor.HttpContext.Session.GetInt32("Yas")</h2>
+<h1>Object Session</h1>
+<h2>@ogr.OgrAd</h2>
+<h2>@ogr.OgrNo</h2>
+<h1>Cookies</h1>
+<h2>@HttpContextAccessor.HttpContext.Request.Cookies["WebId"].ToString()</h2>

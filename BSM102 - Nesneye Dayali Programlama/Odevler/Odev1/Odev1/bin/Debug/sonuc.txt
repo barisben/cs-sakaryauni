@@ -1,0 +1,11 @@
+AA          2           %2         
+BA          1           %1         
+BB          1           %1         
+CB          4           %4         
+CC          10          %10        
+DC          17          %17        
+DD          19          %19        
+FD          21          %21        
+FF          25          %25        
+Gecen ogrenci sayisi: 54
+Kalan ogrenci sayisi: 46

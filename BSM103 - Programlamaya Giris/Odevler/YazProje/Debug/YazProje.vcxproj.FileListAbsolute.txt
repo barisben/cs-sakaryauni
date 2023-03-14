@@ -1,0 +1,2 @@
+C:\Users\Baris\source\repos\YazProje\Debug\YazProje.exe
+C:\Users\Baris\source\repos\YazProje\Debug\YazProje.pdb

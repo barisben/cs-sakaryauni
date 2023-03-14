@@ -1,0 +1,69 @@
+BL51 BANKED LINKER/LOCATER V5.11                                                        05/22/2021  10:20:46  PAGE 1
+
+
+BL51 BANKED LINKER/LOCATER V5.11, INVOKED BY:
+C:\KEIL\C51\BIN\BL51.EXE karasimsek.obj TO karasimsek RAMSIZE (256)
+
+
+INPUT MODULES INCLUDED:
+  karasimsek.obj (KARASIMSEK)
+
+
+LINK MAP OF MODULE:  karasimsek (KARASIMSEK)
+
+
+            TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
+            -----------------------------------------------------
+
+            * * * * * * *   D A T A   M E M O R Y   * * * * * * *
+            REG     0000H     0008H     ABSOLUTE     "REG BANK 0"
+
+            * * * * * * *   C O D E   M E M O R Y   * * * * * * *
+            CODE    0000H     0063H     ABSOLUTE     
+
+
+
+SYMBOL TABLE OF MODULE:  karasimsek (KARASIMSEK)
+
+  VALUE           TYPE          NAME
+  ----------------------------------
+
+  -------         MODULE        KARASIMSEK
+  C:0030H         SYMBOL        ANA
+  C:005AH         SYMBOL        GECIKME
+  D:0090H         SYMBOL        P1
+  C:005CH         SYMBOL        TKRR
+  C:0000H         LINE#         2
+  C:0030H         LINE#         5
+  C:0033H         LINE#         6
+  C:0035H         LINE#         8
+  C:0038H         LINE#         9
+  C:003AH         LINE#         11
+  C:003DH         LINE#         12
+  C:003FH         LINE#         14
+  C:0042H         LINE#         15
+  C:0044H         LINE#         17
+  C:0047H         LINE#         18
+  C:0049H         LINE#         20
+  C:004CH         LINE#         21
+  C:004EH         LINE#         23
+  C:0051H         LINE#         24
+  C:0053H         LINE#         26
+  C:0056H         LINE#         27
+  C:0058H         LINE#         29
+  C:005AH         LINE#         32
+  C:005CH         LINE#         34
+  C:005EH         LINE#         35
+  C:0060H         LINE#         36
+  C:0062H         LINE#         37
+  -------         ENDMOD        KARASIMSEK
+
+******************************************************************************
+BL51 BANKED LINKER/LOCATER V5.11                                                      05/22/2021  10:20:46  PAGE 2
+
+
+* RESTRICTED VERSION WITH 0800H BYTE CODE SIZE LIMIT; USED: 0037H BYTE ( 2%) *
+******************************************************************************
+
+Program Size: data=8.0 xdata=0 code=99
+LINK/LOCATE RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)

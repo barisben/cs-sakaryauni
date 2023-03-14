@@ -1,0 +1,8 @@
+GECIKME:
+mov r6,#00h
+tkrr:
+mov r7,#00h
+djnz r7,$
+djnz r6,tkrr
+ret
+end

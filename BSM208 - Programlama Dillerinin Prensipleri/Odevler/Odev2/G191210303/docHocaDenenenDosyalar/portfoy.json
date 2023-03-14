@@ -1,0 +1,22 @@
+{ "Portfoy":[
+{ "_id": "6083d9954308183862cf3c40", "Sembol": "ALGYO", "Maliyet": 18.10,"Adet": 521},
+{ "_id": "6083d9954308196362cf3c51", "Sembol": "BERA",  "Maliyet": 21.09,"Adet": 367},
+{ "_id": "6083d9954308183462cf3c92", "Sembol": "DOAS", "Maliyet": 30.05,"Adet": 741},
+{ "_id": "6083d1634308183462cf3c93", "Sembol": "ESEN", "Maliyet": 27.2,"Adet": 1100},
+{ "_id": "6083d9954308183862cf3c44", "Sembol": "HEKTS", "Maliyet": 28.7,"Adet": 200},
+{ "_id": "6083d9954308196362cf3c55", "Sembol": "ISMEN",  "Maliyet": 14,"Adet": 475},
+{ "_id": "6083d9954308183462cf3c96", "Sembol": "KOZAA", "Maliyet": 12.4,"Adet": 500},
+{ "_id": "6083d1634308183462cf3c97", "Sembol": "OYAKC", "Maliyet": 8,"Adet": 785},
+{ "_id": "6083d9954308183862cf3c48", "Sembol": "TOASO", "Maliyet": 27,"Adet": 490},
+{ "_id": "6083d9954308196362cf3c59", "Sembol": "TTRAK",  "Maliyet": 207,"Adet": 750},
+{ "_id": "6083d9954308183462cf3c9a", "Sembol": "TUPRS", "Maliyet": 86.2,"Adet": 680},
+{ "_id": "6083d1634308183462cf3c9b", "Sembol": "VAKBN", "Maliyet": 4.1,"Adet": 1000},
+{ "_id": "6083d9954308183862cf3c4c", "Sembol": "VERUS", "Maliyet": 52,"Adet": 350},
+{ "_id": "6083d9954308196362cf3c5d", "Sembol": "ALKIM",  "Maliyet": 16.2,"Adet": 470},
+{ "_id": "6083d9954308183462cf3c9e", "Sembol": "EGEEN", "Maliyet": 1150,"Adet": 700},
+{ "_id": "6083d1634308183462cf3c9f", "Sembol": "GUBRF", "Maliyet": 64,"Adet": 250},
+{ "_id": "6083d9954308183862cf3c42", "Sembol": "JANTS", "Maliyet": 717,"Adet": 2100},
+{ "_id": "6083d9954308196362cf3c53", "Sembol": "MAVI",  "Maliyet": 42.2,"Adet": 475},
+{ "_id": "6083d9954308183462cf3c94", "Sembol": "SISE", "Maliyet": 8.2,"Adet": 800},
+{ "_id": "6083d1634308183462cf3c95", "Sembol": "TKNSA", "Maliyet": 10.5,"Adet": 600}
+]}

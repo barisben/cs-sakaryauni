@@ -1,0 +1,10 @@
+C:\Users\Baris\source\repos\Odev2\obj\Debug\Odev2.csprojAssemblyReference.cache
+C:\Users\Baris\source\repos\Odev2\obj\Debug\Odev2.Form1.resources
+C:\Users\Baris\source\repos\Odev2\obj\Debug\Odev2.Properties.Resources.resources
+C:\Users\Baris\source\repos\Odev2\obj\Debug\Odev2.csproj.GenerateResource.cache
+C:\Users\Baris\source\repos\Odev2\obj\Debug\Odev2.csproj.CoreCompileInputs.cache
+C:\Users\Baris\source\repos\Odev2\bin\Debug\Odev2.exe.config
+C:\Users\Baris\source\repos\Odev2\bin\Debug\Odev2.exe
+C:\Users\Baris\source\repos\Odev2\bin\Debug\Odev2.pdb
+C:\Users\Baris\source\repos\Odev2\obj\Debug\Odev2.exe
+C:\Users\Baris\source\repos\Odev2\obj\Debug\Odev2.pdb

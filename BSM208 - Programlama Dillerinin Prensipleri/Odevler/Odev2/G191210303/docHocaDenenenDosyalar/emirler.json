@@ -1,0 +1,19 @@
+{ "Emirler":[
+{ "_id": "6083d99c82183862cf3cf1", "Sembol": "ALGYO", "Islem": "SATIS","Adet": 521},
+{ "_id": "6083d99543ab796362cff2", "Sembol": "SOKM",  "Islem": "ALIS","Adet": 400},
+{ "_id": "6083d99543abb16362cff3", "Sembol": "TSKB", "Islem": "ALIS","Adet": 300},
+{ "_id": "6083d99c82183862cf3cf4", "Sembol": "DOAS", "Islem": "SATIS","Adet": 741},
+{ "_id": "6083d99543ab796362cff5", "Sembol": "HEKTS",  "Islem": "SATIS","Adet": 200},
+{ "_id": "6083d99543abb16362cff6", "Sembol": "ESEN", "Islem": "ALIS","Adet": 250},
+{ "_id": "6083d99c82183862cf3cf7", "Sembol": "ISMEN", "Islem": "SATIS","Adet": 275},
+{ "_id": "6083d99543ab796362cff8", "Sembol": "KOZAA",  "Islem": "SATIS","Adet": 400},
+{ "_id": "6083d99543abb16362cff9", "Sembol": "OYAKC", "Islem": "ALIS","Adet": 215},
+{ "_id": "6083d99c82183862cf3cd1", "Sembol": "TTRAK", "Islem": "SATIS","Adet": 500},
+{ "_id": "6083d99543ab796362cfd2", "Sembol": "VAKBN",  "Islem": "SATIS","Adet": 1000},
+{ "_id": "6083d99543abb16362cfd3", "Sembol": "YATAS", "Islem": "ALIS","Adet": 500},
+{ "_id": "6083d99c82183862cf3cd4", "Sembol": "VERUS", "Islem": "SATIS","Adet": 350},
+{ "_id": "6083d99543ab796362cfd5", "Sembol": "EGEEN",  "Islem": "SATIS","Adet": 500},
+{ "_id": "6083d99543abb16362cfd6", "Sembol": "GUBRF", "Islem": "ALIS","Adet": 250},
+{ "_id": "6083d99c82183862cf3cd7", "Sembol": "MAVI", "Islem": "SATIS","Adet": 475},
+{ "_id": "6083d99543ab796362cfd8", "Sembol": "SISE",  "Islem": "ALIS","Adet": 200}
+]}

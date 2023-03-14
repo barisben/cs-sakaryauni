@@ -1,0 +1,10 @@
+1001,Lastik,adet,4,Lassa
+1002,Sucuk,kg,7,Sahin
+1003,Televizyon,adet,11,Vestel
+1005,Dis Macunu,adet,18,Colgate
+1006,Outdoor Bot,adet,21,The North Face
+1007,Notebook,adet,25,Lenovo
+1008,Araba,adet,28,Tesla
+1009,Su,lt,32,Erikli
+1010,Fayans,m2,37,Bien Seramik
+1004,Cep Telefonu,adet,14,Apple

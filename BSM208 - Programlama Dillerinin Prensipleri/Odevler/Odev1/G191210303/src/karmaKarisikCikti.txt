@@ -1,0 +1,259 @@
+Sınıf: Queue
+	enqueue
+		Parametre: 1 (Object&)
+		Dönüş Türü: void
+	Arama
+		Parametre: 1 (Object&)
+		Dönüş Türü: bool
+	peek
+		Parametre: 0
+		Dönüş Türü: Object&
+	Node
+		Parametre: 3 (Object&, Node<Object>*, Node<Object>*)
+		Dönüş Türü: Nesne Adresi
+
+Sınıf: LinkedList
+	IterateFromPrevIndex
+		Parametre: 1 (int)
+		Dönüş Türü: Iterator<Object>*
+	LinkedList
+		Parametre: 0
+		Dönüş Türü: Nesne Adresi
+	IsEmpty
+		Parametre: 0
+		Dönüş Türü: bool
+	Count
+		Parametre: 0
+		Dönüş Türü: int
+	First
+		Parametre: 0
+		Dönüş Türü: Object&
+	Last
+		Parametre: 0
+		Dönüş Türü: Object&
+	Add
+		Parametre: 1 (Object&)
+		Dönüş Türü: void
+	Insert
+		Parametre: 2 (int, Object&)
+		Dönüş Türü: void
+	Remove
+		Parametre: 1 (Object&)
+		Dönüş Türü: void
+	RemoveAt
+		Parametre: 1 (int)
+		Dönüş Türü: void
+	IndexOf
+		Parametre: 1 (Object&)
+		Dönüş Türü: int
+	Find
+		Parametre: 1 (Object&)
+		Dönüş Türü: bool
+	operator<<
+		Parametre: 2 (ostream&, LinkedList&)
+		Dönüş Türü: ostream&
+	Clear
+		Parametre: 0
+		Dönüş Türü: void
+	~LinkedList
+		Parametre: 0
+		Dönüş Türü: void
+
+Sınıf: Iterator
+	Iterator
+		Parametre: 0
+		Dönüş Türü: Nesne Adresi
+	Iterator
+		Parametre: 1 (Node<Object>*)
+		Dönüş Türü: Nesne Adresi
+	IsEndNode
+		Parametre: 0
+		Dönüş Türü: bool
+	StepNext
+		Parametre: 0
+		Dönüş Türü: void
+	GetCurrentData
+		Parametre: 0
+		Dönüş Türü: Object&
+
+Sınıf: Node
+	Node
+		Parametre: 2 (Object&, Node<Object>*)
+		Dönüş Türü: Nesne Adresi
+
+Sınıf: Dugum
+	Dugum
+		Parametre: 3 (Object&, Dugum<Object>*, Dugum<Object>*)
+		Dönüş Türü: Nesne Adresi
+
+Sınıf: AVL
+	SolCocukileDegistir
+		Parametre: 1 (Dugum<Object>*)
+		Dönüş Türü: Dugum<Object>*
+	SagCocukileDegistir
+		Parametre: 1 (Dugum<Object>*)
+		Dönüş Türü: Dugum<Object>*
+	AraveEkle
+		Parametre: 2 (Dugum<Object>*, Object&)
+		Dönüş Türü: Dugum<Object>*
+	DugumSil
+		Parametre: 1 (Dugum<Object>*&)
+		Dönüş Türü: bool
+	Arama
+		Parametre: 2 (Dugum<Object>*, Object&)
+		Dönüş Türü: bool
+	Yukseklik
+		Parametre: 1 (Dugum<Object>*)
+		Dönüş Türü: int
+	SeviyeYazdir
+		Parametre: 2 (Dugum<Object>*, int)
+		Dönüş Türü: void
+	inorder
+		Parametre: 1 (Dugum<Object>*)
+		Dönüş Türü: void
+	preorder
+		Parametre: 1 (Dugum<Object>*)
+		Dönüş Türü: void
+	postorder
+		Parametre: 1 (Dugum<Object>*)
+		Dönüş Türü: void
+	AVL
+		Parametre: 0
+		Dönüş Türü: Nesne Adresi
+	isEmpty
+		Parametre: 0
+		Dönüş Türü: bool
+	Ekle
+		Parametre: 1 (Object&)
+		Dönüş Türü: void
+	Arama
+		Parametre: 1 (Object&)
+		Dönüş Türü: bool
+	Yukseklik
+		Parametre: 0
+		Dönüş Türü: int
+	inorder
+		Parametre: 0
+		Dönüş Türü: void
+	preorder
+		Parametre: 0
+		Dönüş Türü: void
+	postorder
+		Parametre: 0
+		Dönüş Türü: void
+	levelorder
+		Parametre: 0
+		Dönüş Türü: void
+	Temizle
+		Parametre: 0
+		Dönüş Türü: void
+	~AVL
+		Parametre: 0
+		Dönüş Türü: void
+
+Sınıf: Kisi
+	Kisi
+		Parametre: 3 (string, int, double)
+		Dönüş Türü: Nesne Adresi
+	Kisi
+		Parametre: 0
+		Dönüş Türü: Nesne Adresi
+	getIsim
+		Parametre: 0
+		Dönüş Türü: string
+	getDogumYili
+		Parametre: 0
+		Dönüş Türü: int
+	getKilo
+		Parametre: 0
+		Dönüş Türü: double
+	YemekYe
+		Parametre: 1 (double)
+		Dönüş Türü: void
+	Kos
+		Parametre: 1 (double)
+		Dönüş Türü: void
+
+Sınıf: Arac
+	Arac
+		Parametre: 4 (string, int, double, double)
+		Dönüş Türü: Nesne Adresi
+	Arac
+		Parametre: 0
+		Dönüş Türü: Nesne Adresi
+	Sur
+		Parametre: 1 (double)
+		Dönüş Türü: void
+	~Arac
+		Parametre: 0
+		Dönüş Türü: void
+
+Sınıf: Tekne
+	Tekne
+		Parametre: 3 (Kisi*, double, MALZEME)
+		Dönüş Türü: Nesne Adresi
+	Tekne
+		Parametre: 0
+		Dönüş Türü: Nesne Adresi
+	MalzemeToString
+		Parametre: 0
+		Dönüş Türü: string
+	operator<<
+		Parametre: 2 (ostream&, Tekne&)
+		Dönüş Türü: ostream&
+
+Sınıf: Dugum
+	Dugum
+		Parametre: 4 (char, int, Dugum*, Dugum*)
+		Dönüş Türü: Nesne Adresi
+	YaprakMi
+		Parametre: 0
+		Dönüş Türü: bool
+	operator==
+		Parametre: 1 (Dugum&)
+		Dönüş Türü: bool
+	operator!=
+		Parametre: 1 (Dugum&)
+		Dönüş Türü: bool
+	operator>
+		Parametre: 1 (Dugum&)
+		Dönüş Türü: bool
+
+Sınıf: Huffman
+	AgacOlustur
+		Parametre: 1 (int[])
+		Dönüş Türü: Dugum*
+	KodOlustur
+		Parametre: 2 (Dugum*, string)
+		Dönüş Türü: void
+	MinDugumIndeks
+		Parametre: 1 (Dugum*[])
+		Dönüş Türü: int
+	DosyaOku
+		Parametre: 1 (string)
+		Dönüş Türü: void
+	inorder
+		Parametre: 1 (Dugum*)
+		Dönüş Türü: void
+	SilDugum
+		Parametre: 1 (Dugum*&)
+		Dönüş Türü: void
+	Huffman
+		Parametre: 1 (string)
+		Dönüş Türü: Nesne Adresi
+	Kodla
+		Parametre: 0
+		Dönüş Türü: void
+	operator<<
+		Parametre: 2 (ostream&, Huffman&)
+		Dönüş Türü: ostream&
+	~Huffman
+		Parametre: 0
+		Dönüş Türü: void
+
+
+Super Sınıflar:
+	Kisi: 2
+	AVL: 2
+	Arac: 2
+	Queue: 2
