@@ -1,0 +1,33 @@
+apt-get install snort
+
+leafpad /etc/snort/snort.conf
+
+ipvar HOME_NET 192.168.100.5 (any yerine ipmiz)
+
+leafpad /etc/snort/rules/local.rules
+
+/etc/init.d/snort start
+
+snort -Q -c /etc/snort/snort.conf -i eth0:eth1 -A console
+
+-A console console üzerinden yazdırcağımız
+-c conf dosyasının yolunu belirtme
+-i arayüz adını belirtme
+
+drop icmp any any -> $HOME_NET any (msg:"ICMP Packet! DOS/DDOS Attempt!!"; sid:10000001; rev:1; detection_filter:track by_dst, count 5, seconds 10;)
+alert tcp any any <> any any (msg:"FTP Attempt!"; sid:10000002; rev:1;)
+
+Alert uyarı verdirme (action)
+drop paketi drop ettirme
+icmp protokol adı
+1. any kaynak ip
+2. any port no
+-> paketin yönü
+1. any hedef ip
+2. any port no
+rev revizyon numarası
+sid snort rule id 1 milyondan öncekiler reserved
+detection_filter ön koşul
+track by_dst destination ipye göre takip
+count eventlerin adedi
+seconds counta girilen parametrenin gerçekleşeceği zaman aralığı
